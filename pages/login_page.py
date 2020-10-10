@@ -30,4 +30,3 @@ class LoginPage(BasePage):
         password_field.send_keys(password)
         password_confirmation_field.send_keys(password)
         submit_button.click()
-
